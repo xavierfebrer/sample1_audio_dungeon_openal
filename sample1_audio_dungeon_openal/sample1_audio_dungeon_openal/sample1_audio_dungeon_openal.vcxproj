@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{339F428A-3030-4A37-9F90-63127A0F9050}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>sample1_audio_dungeon_openal</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <ProjectName>sample1_audio_dungeon_openal</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)/../ExternalLibraries/VisualC/SDL2/include;$(SolutionDir)/../ExternalLibraries/glew/include;$(SolutionDir)/../ExternalLibraries;$(SolutionDir)/../ExternalLibraries/glfw/glfw-3.2.1.bin.WIN64/include;$(SolutionDir)/../ExternalLibraries/glad/include;$(SolutionDir)/../ExternalLibraries/assimp/include;$(SolutionDir)/../ExternalLibraries/OpenAL 1.1 SDK/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)/../ExternalLibraries/VisualC/SDL2/lib/x64;$(SolutionDir)/../ExternalLibraries/glew/lib/Release/x64;$(SolutionDir)/../ExternalLibraries/glfw/glfw-3.2.1.bin.WIN64/lib-vc2015;$(SolutionDir)/../ExternalLibraries/assimp/lib/x64;$(SolutionDir)/../ExternalLibraries/OpenAL 1.1 SDK\libs\Win64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2main.lib;SDL2test.lib;GlU32.Lib;OpenGL32.Lib;glew32.lib;glew32s.lib;glfw3.lib;glfw3dll.lib;assimp-vc140-mt.lib;OpenAL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="core\include\AbsEaseAnimation.h" />
+    <ClInclude Include="core\include\AlphaAnimationListener.h" />
+    <ClInclude Include="core\include\AlphaEaseAnimation.h" />
+    <ClInclude Include="core\include\Animation.h" />
+    <ClInclude Include="core\include\AnimationStep.h" />
+    <ClInclude Include="core\include\Assets.h" />
+    <ClInclude Include="core\include\Audio.h" />
+    <ClInclude Include="core\include\BaseComponent.h" />
+    <ClInclude Include="core\include\Button.h" />
+    <ClInclude Include="core\include\Camera.h" />
+    <ClInclude Include="core\include\CollisionUtil.h" />
+    <ClInclude Include="core\include\Color.h" />
+    <ClInclude Include="core\include\ColorMaterial.h" />
+    <ClInclude Include="core\include\CubeMap.h" />
+    <ClInclude Include="core\include\DirectionalLight.h" />
+    <ClInclude Include="core\include\Ease.h" />
+    <ClInclude Include="core\include\EaseAnimation.h" />
+    <ClInclude Include="core\include\FragmentShader.h" />
+    <ClInclude Include="core\include\Game.h" />
+    <ClInclude Include="core\include\GLFWGraphics.h" />
+    <ClInclude Include="core\include\GLFWInput.h" />
+    <ClInclude Include="core\include\Graphics.h" />
+    <ClInclude Include="core\include\Hack3dEngine.h" />
+    <ClInclude Include="core\include\ImageView.h" />
+    <ClInclude Include="core\include\Input.h" />
+    <ClInclude Include="core\include\KeyInfo.h" />
+    <ClInclude Include="core\include\KinematicsUtil.h" />
+    <ClInclude Include="core\include\Light.h" />
+    <ClInclude Include="core\include\LinearEase.h" />
+    <ClInclude Include="core\include\Material.h" />
+    <ClInclude Include="core\include\Mesh.h" />
+    <ClInclude Include="core\include\Model.h" />
+    <ClInclude Include="core\include\MoveAnimationListener.h" />
+    <ClInclude Include="core\include\MoveEaseAnimation.h" />
+    <ClInclude Include="core\include\MyColor.h" />
+    <ClInclude Include="core\include\OnClickListener.h" />
+    <ClInclude Include="core\include\OpenALAudio.h" />
+    <ClInclude Include="core\include\OpenALSound.h" />
+    <ClInclude Include="core\include\Padding.h" />
+    <ClInclude Include="core\include\PointerEvent.h" />
+    <ClInclude Include="core\include\PointerEventInfo.h" />
+    <ClInclude Include="core\include\PointerInfo.h" />
+    <ClInclude Include="core\include\PointLight.h" />
+    <ClInclude Include="core\include\Rect.h" />
+    <ClInclude Include="core\include\Screen.h" />
+    <ClInclude Include="core\include\Shader.h" />
+    <ClInclude Include="core\include\ShaderProgram.h" />
+    <ClInclude Include="core\include\SpotLight.h" />
+    <ClInclude Include="core\include\stb_image.h" />
+    <ClInclude Include="core\include\Texture.h" />
+    <ClInclude Include="core\include\Texture2D.h" />
+    <ClInclude Include="core\include\TextureMaterial.h" />
+    <ClInclude Include="core\include\TextureRegion2D.h" />
+    <ClInclude Include="core\include\Util.h" />
+    <ClInclude Include="core\include\Vec2.h" />
+    <ClInclude Include="core\include\Vertex.h" />
+    <ClInclude Include="core\include\VertexShader.h" />
+    <ClInclude Include="core\include\View.h" />
+    <ClInclude Include="core\include\ViewManager.h" />
+    <ClInclude Include="core\src\audio\alut\alutInternal.h" />
+    <ClInclude Include="instance\include\BaseScreen.h" />
+    <ClInclude Include="instance\include\Constants.h" />
+    <ClInclude Include="instance\include\EndScreen.h" />
+    <ClInclude Include="instance\include\Entity.h" />
+    <ClInclude Include="instance\include\Exit.h" />
+    <ClInclude Include="instance\include\GameScreen.h" />
+    <ClInclude Include="instance\include\GameWorld.h" />
+    <ClInclude Include="instance\include\Hero.h" />
+    <ClInclude Include="instance\include\LogoScreen.h" />
+    <ClInclude Include="instance\include\MainMenuScreen.h" />
+    <ClInclude Include="instance\include\Monster.h" />
+    <ClInclude Include="instance\include\Sample1AudioDungeonGameOpenALGame.h" />
+    <ClInclude Include="instance\include\Terrain.h" />
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="core\src\animation\AbsEaseAnimation.cpp" />
+    <ClCompile Include="core\src\animation\AlphaEaseAnimation.cpp" />
+    <ClCompile Include="core\src\animation\ease\Ease.cpp" />
+    <ClCompile Include="core\src\animation\ease\LinearEase.cpp" />
+    <ClCompile Include="core\src\animation\MoveEaseAnimation.cpp" />
+    <ClCompile Include="core\src\asset\Assets.cpp" />
+    <ClCompile Include="core\src\audio\alut\alutBufferData.c" />
+    <ClCompile Include="core\src\audio\alut\alutCodec.c" />
+    <ClCompile Include="core\src\audio\alut\alutError.c" />
+    <ClCompile Include="core\src\audio\alut\alutInit.c" />
+    <ClCompile Include="core\src\audio\alut\alutInputStream.c" />
+    <ClCompile Include="core\src\audio\alut\alutLoader.c" />
+    <ClCompile Include="core\src\audio\alut\alutOutputStream.c" />
+    <ClCompile Include="core\src\audio\alut\alutUtil.c" />
+    <ClCompile Include="core\src\audio\alut\alutVersion.c" />
+    <ClCompile Include="core\src\audio\alut\alutWaveform.c" />
+    <ClCompile Include="core\src\audio\Audio.cpp" />
+    <ClCompile Include="core\src\audio\OpenALAudio.cpp" />
+    <ClCompile Include="core\src\audio\OpenALSound.cpp" />
+    <ClCompile Include="core\src\component\BaseComponent.cpp" />
+    <ClCompile Include="core\src\engine\Hack3dEngine.cpp" />
+    <ClCompile Include="core\src\game\Game.cpp" />
+    <ClCompile Include="core\src\game\ui\animation\Animation.cpp" />
+    <ClCompile Include="core\src\game\ui\animation\AnimationStep.cpp" />
+    <ClCompile Include="core\src\game\ui\screen\Screen.cpp" />
+    <ClCompile Include="core\src\game\ui\view\Button.cpp" />
+    <ClCompile Include="core\src\game\ui\view\event\PointerEventInfo.cpp" />
+    <ClCompile Include="core\src\game\ui\view\ImageView.cpp" />
+    <ClCompile Include="core\src\game\ui\view\manager\ViewManager.cpp" />
+    <ClCompile Include="core\src\game\ui\view\Padding.cpp" />
+    <ClCompile Include="core\src\game\ui\view\View.cpp" />
+    <ClCompile Include="core\src\graphics\camera\Camera.cpp" />
+    <ClCompile Include="core\src\graphics\CubeMap.cpp" />
+    <ClCompile Include="core\src\graphics\glad.c" />
+    <ClCompile Include="core\src\graphics\GLFWGraphics.cpp" />
+    <ClCompile Include="core\src\graphics\Graphics.cpp" />
+    <ClCompile Include="core\src\graphics\light\DirectionalLight.cpp" />
+    <ClCompile Include="core\src\graphics\light\Light.cpp" />
+    <ClCompile Include="core\src\graphics\light\material\ColorMaterial.cpp" />
+    <ClCompile Include="core\src\graphics\light\material\Material.cpp" />
+    <ClCompile Include="core\src\graphics\light\material\TextureMaterial.cpp" />
+    <ClCompile Include="core\src\graphics\light\PointLight.cpp" />
+    <ClCompile Include="core\src\graphics\light\SpotLight.cpp" />
+    <ClCompile Include="core\src\graphics\mesh\Mesh.cpp" />
+    <ClCompile Include="core\src\graphics\mesh\Model.cpp" />
+    <ClCompile Include="core\src\graphics\shader\FragmentShader.cpp" />
+    <ClCompile Include="core\src\graphics\shader\Shader.cpp" />
+    <ClCompile Include="core\src\graphics\shader\ShaderProgram.cpp" />
+    <ClCompile Include="core\src\graphics\shader\VertexShader.cpp" />
+    <ClCompile Include="core\src\graphics\Texture2D.cpp" />
+    <ClCompile Include="core\src\graphics\TextureRegion2D.cpp" />
+    <ClCompile Include="core\src\input\GLFWInput.cpp" />
+    <ClCompile Include="core\src\input\Input.cpp" />
+    <ClCompile Include="core\src\util\CollisionUtil.cpp" />
+    <ClCompile Include="core\src\util\Color.cpp" />
+    <ClCompile Include="core\src\util\KeyInfo.cpp" />
+    <ClCompile Include="core\src\util\KinematicsUtil.cpp" />
+    <ClCompile Include="core\src\util\MyColor.cpp" />
+    <ClCompile Include="core\src\util\PointerInfo.cpp" />
+    <ClCompile Include="core\src\util\Rect.cpp" />
+    <ClCompile Include="core\src\util\Util.cpp" />
+    <ClCompile Include="core\src\util\Vec2.cpp" />
+    <ClCompile Include="instance\src\game\model\entity\Entity.cpp" />
+    <ClCompile Include="instance\src\game\model\entity\exit\Exit.cpp" />
+    <ClCompile Include="instance\src\game\model\entity\hero\Hero.cpp" />
+    <ClCompile Include="instance\src\game\model\entity\monster\Monster.cpp" />
+    <ClCompile Include="instance\src\game\model\entity\terrain\Terrain.cpp" />
+    <ClCompile Include="instance\src\game\model\GameWorld.cpp" />
+    <ClCompile Include="instance\src\game\Sample1AudioDungeonGameOpenALGame.cpp" />
+    <ClCompile Include="instance\src\game\ui\screen\BaseScreen.cpp" />
+    <ClCompile Include="instance\src\game\ui\screen\EndScreen.cpp" />
+    <ClCompile Include="instance\src\game\ui\screen\GameScreen.cpp" />
+    <ClCompile Include="instance\src\game\ui\screen\LogoScreen.cpp" />
+    <ClCompile Include="instance\src\game\ui\screen\MainMenuScreen.cpp" />
+    <ClCompile Include="instance\src\util\Constants.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="sample1_audio_dungeon_openal.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

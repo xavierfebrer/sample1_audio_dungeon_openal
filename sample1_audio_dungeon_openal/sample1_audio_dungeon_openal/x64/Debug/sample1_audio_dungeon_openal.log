@@ -1,0 +1,150 @@
+﻿  pch.cpp
+  AbsEaseAnimation.cpp
+  AlphaEaseAnimation.cpp
+  Ease.cpp
+  LinearEase.cpp
+  MoveEaseAnimation.cpp
+  Assets.cpp
+  Audio.cpp
+  OpenALAudio.cpp
+  OpenALSound.cpp
+  BaseComponent.cpp
+  Hack3dEngine.cpp
+  Game.cpp
+  Animation.cpp
+  AnimationStep.cpp
+  Screen.cpp
+  Button.cpp
+  PointerEventInfo.cpp
+  ImageView.cpp
+  ViewManager.cpp
+  Padding.cpp
+  Generating Code...
+  Compiling...
+  View.cpp
+  Camera.cpp
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\core\src\graphics\camera\camera.cpp(127): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\core\src\graphics\camera\camera.cpp(129): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  CubeMap.cpp
+  GLFWGraphics.cpp
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\core\src\graphics\glfwgraphics.cpp(70): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Graphics.cpp
+  DirectionalLight.cpp
+  Light.cpp
+  ColorMaterial.cpp
+  Material.cpp
+  TextureMaterial.cpp
+  PointLight.cpp
+  SpotLight.cpp
+  Mesh.cpp
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\core\src\graphics\mesh\mesh.cpp(40): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  Model.cpp
+  FragmentShader.cpp
+  Shader.cpp
+  ShaderProgram.cpp
+  VertexShader.cpp
+  Texture2D.cpp
+  TextureRegion2D.cpp
+  Generating Code...
+  Compiling...
+  GLFWInput.cpp
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\core\src\input\glfwinput.cpp(37): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\core\src\input\glfwinput.cpp(38): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Input.cpp
+  CollisionUtil.cpp
+  Color.cpp
+  KeyInfo.cpp
+  KinematicsUtil.cpp
+  MyColor.cpp
+  PointerInfo.cpp
+  Rect.cpp
+  Util.cpp
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\core\src\util\util.cpp(16): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\core\src\util\util.cpp(20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\core\src\util\util.cpp(28): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\core\src\util\util.cpp(32): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\core\src\util\util.cpp(89): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Vec2.cpp
+  Entity.cpp
+  Exit.cpp
+  Hero.cpp
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\instance\src\game\model\entity\hero\hero.cpp(24): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\instance\src\game\model\entity\hero\hero.cpp(25): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Monster.cpp
+  Terrain.cpp
+  GameWorld.cpp
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\instance\src\game\model\gameworld.cpp(56): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\instance\src\game\model\gameworld.cpp(92): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\instance\src\game\model\gameworld.cpp(98): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\instance\src\game\model\gameworld.cpp(151): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\instance\src\game\model\gameworld.cpp(158): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\instance\src\game\model\gameworld.cpp(189): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\instance\src\game\model\gameworld.cpp(199): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Sample1AudioDungeonGameOpenALGame.cpp
+  BaseScreen.cpp
+  EndScreen.cpp
+  Generating Code...
+  Compiling...
+  GameScreen.cpp
+  LogoScreen.cpp
+  MainMenuScreen.cpp
+  Constants.cpp
+  sample1_audio_dungeon_openal.cpp
+  Generating Code...
+  alutBufferData.c
+  alutCodec.c
+  alutError.c
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\core\src\audio\alut\aluterror.c(23): warning C4273: 'alutGetError': inconsistent dll linkage
+  c:\users\hack2s\git\sample1_audio_dungeon_openal\externallibraries\openal 1.1 sdk\include\alut.h(88): note: see previous definition of 'alutGetError'
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\core\src\audio\alut\aluterror.c(31): warning C4273: 'alutGetErrorString': inconsistent dll linkage
+  c:\users\hack2s\git\sample1_audio_dungeon_openal\externallibraries\openal 1.1 sdk\include\alut.h(89): note: see previous definition of 'alutGetErrorString'
+  alutInit.c
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\core\src\audio\alut\alutinit.c(51): warning C4273: 'alutInit': inconsistent dll linkage
+  c:\users\hack2s\git\sample1_audio_dungeon_openal\externallibraries\openal 1.1 sdk\include\alut.h(84): note: see previous definition of 'alutInit'
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\core\src\audio\alut\alutinit.c(97): warning C4273: 'alutInitWithoutContext': inconsistent dll linkage
+  c:\users\hack2s\git\sample1_audio_dungeon_openal\externallibraries\openal 1.1 sdk\include\alut.h(85): note: see previous definition of 'alutInitWithoutContext'
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\core\src\audio\alut\alutinit.c(116): warning C4273: 'alutExit': inconsistent dll linkage
+  c:\users\hack2s\git\sample1_audio_dungeon_openal\externallibraries\openal 1.1 sdk\include\alut.h(86): note: see previous definition of 'alutExit'
+  alutInputStream.c
+  alutLoader.c
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\core\src\audio\alut\alutloader.c(328): warning C4273: 'alutCreateBufferFromFile': inconsistent dll linkage
+  c:\users\hack2s\git\sample1_audio_dungeon_openal\externallibraries\openal 1.1 sdk\include\alut.h(91): note: see previous definition of 'alutCreateBufferFromFile'
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\core\src\audio\alut\alutloader.c(340): warning C4273: 'alutCreateBufferFromFileImage': inconsistent dll linkage
+  c:\users\hack2s\git\sample1_audio_dungeon_openal\externallibraries\openal 1.1 sdk\include\alut.h(92): note: see previous definition of 'alutCreateBufferFromFileImage'
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\core\src\audio\alut\alutloader.c(401): warning C4273: 'alutLoadMemoryFromFile': inconsistent dll linkage
+  c:\users\hack2s\git\sample1_audio_dungeon_openal\externallibraries\openal 1.1 sdk\include\alut.h(96): note: see previous definition of 'alutLoadMemoryFromFile'
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\core\src\audio\alut\alutloader.c(415): warning C4273: 'alutLoadMemoryFromFileImage': inconsistent dll linkage
+  c:\users\hack2s\git\sample1_audio_dungeon_openal\externallibraries\openal 1.1 sdk\include\alut.h(97): note: see previous definition of 'alutLoadMemoryFromFileImage'
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\core\src\audio\alut\alutloader.c(436): warning C4273: 'alutLoadWAVFile': inconsistent dll linkage
+  c:\users\hack2s\git\sample1_audio_dungeon_openal\externallibraries\openal 1.1 sdk\include\alut.h(113): note: see previous definition of 'alutLoadWAVFile'
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\core\src\audio\alut\alutloader.c(469): warning C4273: 'alutLoadWAVMemory': inconsistent dll linkage
+  c:\users\hack2s\git\sample1_audio_dungeon_openal\externallibraries\openal 1.1 sdk\include\alut.h(114): note: see previous definition of 'alutLoadWAVMemory'
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\core\src\audio\alut\alutloader.c(499): warning C4273: 'alutUnloadWAV': inconsistent dll linkage
+  c:\users\hack2s\git\sample1_audio_dungeon_openal\externallibraries\openal 1.1 sdk\include\alut.h(116): note: see previous definition of 'alutUnloadWAV'
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\core\src\audio\alut\alutloader.c(507): warning C4273: 'alutGetMIMETypes': inconsistent dll linkage
+  c:\users\hack2s\git\sample1_audio_dungeon_openal\externallibraries\openal 1.1 sdk\include\alut.h(101): note: see previous definition of 'alutGetMIMETypes'
+  alutOutputStream.c
+  alutUtil.c
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\core\src\audio\alut\alututil.c(23): warning C4273: 'alutSleep': inconsistent dll linkage
+  c:\users\hack2s\git\sample1_audio_dungeon_openal\externallibraries\openal 1.1 sdk\include\alut.h(106): note: see previous definition of 'alutSleep'
+  alutVersion.c
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\core\src\audio\alut\alutversion.c(5): warning C4273: 'alutGetMajorVersion': inconsistent dll linkage
+  c:\users\hack2s\git\sample1_audio_dungeon_openal\externallibraries\openal 1.1 sdk\include\alut.h(103): note: see previous definition of 'alutGetMajorVersion'
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\core\src\audio\alut\alutversion.c(11): warning C4273: 'alutGetMinorVersion': inconsistent dll linkage
+  c:\users\hack2s\git\sample1_audio_dungeon_openal\externallibraries\openal 1.1 sdk\include\alut.h(104): note: see previous definition of 'alutGetMinorVersion'
+  alutWaveform.c
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\core\src\audio\alut\alutwaveform.c(148): warning C4273: 'alutLoadMemoryWaveform': inconsistent dll linkage
+  c:\users\hack2s\git\sample1_audio_dungeon_openal\externallibraries\openal 1.1 sdk\include\alut.h(99): note: see previous definition of 'alutLoadMemoryWaveform'
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\core\src\audio\alut\alutwaveform.c(185): warning C4273: 'alutCreateBufferWaveform': inconsistent dll linkage
+  c:\users\hack2s\git\sample1_audio_dungeon_openal\externallibraries\openal 1.1 sdk\include\alut.h(94): note: see previous definition of 'alutCreateBufferWaveform'
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\core\src\audio\alut\alutwaveform.c(921): warning C4273: 'alutLoadMemoryHelloWorld': inconsistent dll linkage
+  c:\users\hack2s\git\sample1_audio_dungeon_openal\externallibraries\openal 1.1 sdk\include\alut.h(98): note: see previous definition of 'alutLoadMemoryHelloWorld'
+c:\users\hack2s\git\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\core\src\audio\alut\alutwaveform.c(932): warning C4273: 'alutCreateBufferHelloWorld': inconsistent dll linkage
+  c:\users\hack2s\git\sample1_audio_dungeon_openal\externallibraries\openal 1.1 sdk\include\alut.h(93): note: see previous definition of 'alutCreateBufferHelloWorld'
+  glad.c
+  Generating Code...
+     Creating library C:\Users\hack2s\GIT\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\x64\Debug\sample1_audio_dungeon_openal.lib and object C:\Users\hack2s\GIT\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\x64\Debug\sample1_audio_dungeon_openal.exp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+OpenALAudio.obj : warning LNK4217: locally defined symbol alutInitWithoutContext imported in function "private: virtual bool __cdecl OpenALAudio::initOpenAL(void)" (?initOpenAL@OpenALAudio@@EEAA_NXZ)
+OpenALSound.obj : warning LNK4217: locally defined symbol alutLoadMemoryFromFile imported in function "private: bool __cdecl OpenALSound::initData(float,bool,float)" (?initData@OpenALSound@@AEAA_NM_NM@Z)
+  sample1_audio_dungeon_openal.vcxproj -> C:\Users\hack2s\GIT\sample1_audio_dungeon_openal\sample1_audio_dungeon_openal\x64\Debug\sample1_audio_dungeon_openal.exe
