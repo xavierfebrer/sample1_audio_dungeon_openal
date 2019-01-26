@@ -1,0 +1,2 @@
+# Sample blind dungeon game, OpenAL 1.1
+A dungeon blind game. The player can move using W/S -> forward/backwards and A/D -> turn 90º left/turn 90º right. The objective is to listen and go to the exit, the waterfall. The player needs to avoid the monster, all via audio. It uses OpenAL 1.1.
